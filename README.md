@@ -16,3 +16,9 @@ The format for list comprehension is:
 var_1 = [var in var for iterable, [optional conditional statement(s)]]
 
 As in both examples, the use of a for loop is applied to the list comprehension due to the nature of how list comprehension works. The neccessity of the for loop is to be able to iterate into the list and create the list at the same time. When compared to the use of appending to a list, it is often cited as one line code that creates results and very well preferred.
+
+In this simple practice coding, I am using a range function to build a list out of a list comprehension code. The point of this coding is to simply ensure that the code works in two ways. The function that it calls from works and that it is filtered into the main function by filtering the name of this file into the main function, by which all functions would be called by the main function. 
+
+Why do we call from the main() function?
+
+It is so that when we call all of our functions, without the use of classes, we are able to get the main function to utilize a file that is called through the main program, in this case, list_comp.py. 
