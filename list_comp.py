@@ -6,7 +6,7 @@ def comp_li():
 
 def main():
     print(comp_li())
-    print(sys.getsizeof(comp_li()))
+#    print(sys.getsizeof(comp_li()))
 
 if __name__ == "__main__":
     main()
